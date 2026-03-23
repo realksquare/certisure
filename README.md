@@ -34,4 +34,4 @@ Want to test the code yourself? Yah man, it is super easy:
 5. Open `localhost:3000` and start verifying!
 
 ***
-*Built with ❤️ and a lot of late-night coffee for HackNova 3.0✨*
+*Built with ❤️ and a lot of late-night coffee✨*
