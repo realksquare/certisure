@@ -1,30 +1,30 @@
-# 🎓 CertiSure
+# CertiSure
 
 **Web3 Cryptographic Security on Web2 Infrastructure.**
 
 🔗 **[Live Demo](https://certisure-frontend.vercel.app)**
 
-Hey! Welcome to the official repository for **CertiSure**, built for the HackNova 3.0 EdTech track. 
+Hey! Welcome to the official repository for **CertiSure**!
 
-## 🛑 The Problem
+## The Problem
 Fake academic and professional certificates are a massive headache for recruiters and colleges. Manual verification via phone and email takes days. Existing blockchain solutions are too slow, too complex, and way too expensive for mid-sized institutions.
 
-## 💡 Our Solution
+## Our Solution
 CertiSure brings the tamper-proof logic of Web3 to the lightning-fast infrastructure of Web2. We use cryptographic SHA-256 hashing to fingerprint documents and MongoDB Atlas to verify them in milliseconds. 
 
-## 🔥 Core Features
+## Core Features
 * **Bulk CSV Upload:** The absolute game changer. Institutions can upload a CSV to generate and hash hundreds of certificates at once. 
 * **Single PDF Upload:** Drop a certificate to generate a unique QR code and register it securely in the database.
 * **Instant Verification Portal:** Employers just upload the candidate's PDF. We extract the QR data, recompute the hash, and check the database. Match? Verified ✅. Altered? Busted ❌.
 * **PWA Ready:** A smooth React frontend that works anywhere, without app store downloads.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Frontend:** React.js, Tailwind CSS (Deployed on Vercel)
 * **Backend:** Node.js, Express.js (Deployed on Vercel)
 * **Database:** MongoDB Atlas
 * **Magic Ingredients:** `pdf-parse`, `qrcode-reader`, native Node `crypto`
 
-## 🚀 Run it Locally
+## Run it Locally
 Want to test the code yourself? Yah man, it is super easy:
 
 1. Clone this repository to your local machine.
